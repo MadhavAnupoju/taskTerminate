@@ -1,0 +1,5 @@
+To terminate a process with port number
+
+netstat -ano | find "8080"
+
+taskkill -pid 5364 /f
